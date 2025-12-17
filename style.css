@@ -1,0 +1,70 @@
+body {
+  background-image: url(acima-vista-arranjo-com-dumbbells-e-calculadora_23-2148259119.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #ffffff;
+}
+
+.card {
+  background-color: #a50d77;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(36, 0, 28, 0.322);
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  color: #000000;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+p {
+  color: #000000;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #460332;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #59098f;
+}
+
+#resultado {
+  color: black;
+  margin-top: 20px;
+  font-weight: bolder;
+  font-size: 20px;
+}
